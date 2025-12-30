@@ -28,7 +28,6 @@ steps:
   - -xe
   - -c
   - |
-    gcloud deploy apply --file deploy/pipeline.yaml --region=us-central1
     gcloud deploy apply --file deploy/dev.yaml --region=us-central1
     gcloud deploy apply --file deploy/prod.yaml --region=us-central1
 
